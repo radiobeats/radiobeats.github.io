@@ -75,6 +75,27 @@
 	background-size: 273px 280px;
 }
 
+.ch-img-13 { 
+	background-image: url(images/s1.jpg);
+	background-size: 273px 280px;
+}
+
+.ch-img-14 { 
+	background-image: url(images/s2.jpg);
+	background-size: 273px 280px;
+}
+
+.ch-img-15 { 
+	background-image: url(images/s3.png);
+	background-size: 273px 280px;
+}
+
+.ch-img-16 { 
+	background-image: url(images/s4.jpg);
+	background-size: 273px 280px;
+}
+
+
 .ch-info {
 	position: absolute;
 	background: rgba(0, 0, 0, 0.88);

@@ -1,8 +1,10 @@
-/*
-	Landed by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
+$('a[href^=#]').click(function(event){
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    event.preventDefault();
+});
 
 (function($) {
 
@@ -13,8 +15,8 @@
 			xlarge: { media: '(max-width: 1680px)', href: 'css/style-xlarge.css' },
 			large: { media: '(max-width: 1280px)', href: 'css/style-large.css', containers: '90%', viewport: { scalable: false } },
 			medium: { media: '(max-width: 980px)', href: 'css/style-medium.css', containers: '100%!' },
-			small: { media: '(max-width: 736px)', href: 'css/style-small.css' },
-			xsmall: { media: '(max-width: 480px)', href: 'css/style-xsmall.css' }
+			small: { media: '(max-width: 900px)', href: 'css/style-small.css' },
+			xsmall: { media: '(max-width: 340px)', href: 'css/style-xsmall.css' }
 		},
 		plugins: {
 			layers: {

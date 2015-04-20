@@ -1,9 +1,15 @@
 
 $('a[href^=#]').click(function(event){
     $('html, body').animate({
-        scrollTop: $( $.attr(this) ).offset().top
+        scrollTop: $( $.attr(this, 'html') ).offset().top
     }, 500);
     event.preventDefault();
+});
+$("#contact>a").each(function(){
+   keeping = $(this).html();
+   $(keeping).insertAfter($(this))
+   $(this).remove()
+
 });
 
 (function($) {

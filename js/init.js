@@ -5,12 +5,6 @@ $('a[href^=#]').click(function(event){
     }, 500);
     event.preventDefault();
 });
-$("#contact>a").each(function(){
-   keeping = $(this).html();
-   $(keeping).insertAfter($(this))
-   $(this).remove()
-
-});
 
 (function($) {
 

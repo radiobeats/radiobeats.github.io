@@ -253,18 +253,19 @@
 				<div class="box container 75%" style="border-radius: 10px; padding-left: 1.5em;">
 
 					<!-- Contact Form -->
-					<form method="post" action="html_form_send.php"><!--change-->
+					<form method="post" action="//formspree.io/subham.b.chatterjee@gmail.com"><!--change-->
 						<div class="row 50%">
 							<div class="6u"><input type="text" name="name" placeholder="Name *" /></div>
-							<div class="6u"><input type="email" name="email" placeholder="Email *" /></div>
+							<div class="6u"><input type="email" name="_replyto" placeholder="Email *" /></div>
 						</div>
+						<input type="hidden" name="_subject" value="New RadioBeats Query!" />
 						<div class="row 50%">
 							<div class="12u"><textarea name="message" placeholder="Message *" rows="6" style="-webkit-text-fill-color: black;"></textarea></div>
 						</div>
 						<div class="row" style="padding-top: 10px;">
 							<div class="12u" style="padding-left: 2em;">
 								<ul class="actions" style="margin-bottom: 0;">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="Send" /></li>
 								</ul>
 							</div>
 						</div>
@@ -287,5 +288,6 @@
 		
 		<!-- Contact Us -->
 		<script type="text/javascript"> /* var bcf_settings = { buttonText:'Contact Us', buttonTop:'30%', language:'en_US' }; // Better Contact Form Settings */ (function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; js = d.createElement(s); js.id = id; js.src = "http://bettercontactform.com/contact/media/e/3/e31e9a8cff0d3c618a9165235b2124a8e99cea10.js"; fjs.parentNode.insertBefore(js, fjs); }(document, "script", "bcf-render"));</script> <a id="bcf_trigger" href="http://bettercontactform.com" rel="bcf_trigger">Contact Form</a>
+		<!-- -->
 	</body>
 </html>

@@ -7,7 +7,12 @@
 /*
 	Landed Github
 */
-
+#contact {
+	display: none;
+}
+#contact:target {
+	display: block;
+}
 /* Contact elements */
 
 input:-webkit-autofill, textarea:-webkit-autofill {

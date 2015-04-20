@@ -385,6 +385,7 @@ section.special, article.special {
 				color: rgb(0, 0, 0);
 				border-radius: 0.5em;
 				outline: none;
+				font-weight: normal;
 
 				-moz-appearance: none;
 				-webkit-appearance: none;

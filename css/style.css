@@ -10,7 +10,7 @@
 /* Links */
 
 a:visited {
-	color: white !important;
+	color: white;
 }
 
 /* Contact elements */
@@ -1822,7 +1822,7 @@ section.special, article.special {
 				-ms-transition: none;
 				transition: none;
 				border: 0;
-				border-top: solid 1px #f2f2f2;
+				border-top: solid 2px rgba(0, 0, 0,0.2);
 				color: inherit;
 				display: block;
 				padding: 0.15em 1em;
@@ -1833,8 +1833,8 @@ section.special, article.special {
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #e89980;
-				color: #ffffff;
+				background: #fbfbfb;
+				color: black;
 			}
 
 		.dropotron.level-0 {

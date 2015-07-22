@@ -3,7 +3,7 @@
 /* General Demo Style */
 body{
 	font-family: Cambria, Georgia, serif;
-	background: #f9f9f9 url(../images/bg.jpg);
+	background: #f9f9f9;
 	font-weight: 300;
 	font-size: 15px;
 	color: #333;
@@ -30,15 +30,16 @@ a{
 	margin: 0 auto;
 	position: relative;
 }
-.container > header{
+.head{
 	margin: 10px;
 	padding: 20px 10px 10px 10px;
 	position: relative;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-    text-align: center;
+    text-align: left;
+	color: black;
 }
-.container > header h1{
+.head h1{
 	font-size: 32px;
 	line-height: 32px;
 	margin: 0;
@@ -47,14 +48,21 @@ a{
 	color: #777;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
 }
-.container > header h2{
-	font-size: 14px;
-	font-weight: 300;
+.head h2{
+	font-size: 2em;
+	font-weight: 400;
 	font-style: normal;
 	margin: 0;
 	padding: 15px 0 5px 0;
 	color: rgb(74,74,74);
 	text-shadow: 1px 1px 1px rgba(62,64,74,0.65);
+	text-align: center;
+}
+.head p{
+	text-align: left;
+	margin-bottom: 0;
+	line-height: 1.5em;
+	color: black;
 }
 /* Header Style */
 .codrops-top{

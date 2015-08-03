@@ -81,7 +81,7 @@
                     "<div class='picasagallery_album'><img src='" +
                     img_src + '/s' + data.thumbnail_width + ( data.thumbnail_cropped ? '-c' : '' ) + '/' + img_filename +
                     "' alt='" + json.feed.entry[i].gphoto$name.$t + "' title='" + album_title +
-                    "'/><p><strong>" + album_title + "</strong></p><p>" +
+                    "'/><p>" + album_title + "</p><p>" +
                     json.feed.entry[i].gphoto$numphotos.$t +
                     ' photos' +
                     ( data.link_to_picasa ? '<a href="'+album_link+'" title="View Album on Picasa" style="position:relative;margin-left:6px;" target="_blank"><img src="chain-icon.gif" alt="chain-icon" style="margin:0;top:4px;position:relative;"/></a>' : '') +
@@ -117,7 +117,7 @@
         $.getJSON(url, 'callback=?', $.proxy(function(json) {
 
             // set album's title
-            var album_header = dom.children('span[class="picasagallery_title"]:first').html('<strong>Album:</strong> <span class="picasagallery_album_name">' + json.feed.title.$t + '</span>');
+            var album_header = dom.children('span[class="picasagallery_title"]:first').html('<strong class="gal">> Album:</strong> <span class="picasagallery_album_name">' + json.feed.title.$t + '</span>');
             if (data.inline)
                 album_header.find('span:last').wrap('<a href="#"></a>').parent().data('album', album).click(function(e) {
                     if (!e)
@@ -250,4 +250,3 @@
     };
 
 }) ( window, jQuery );
-

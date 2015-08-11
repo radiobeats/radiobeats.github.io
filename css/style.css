@@ -32,6 +32,17 @@ input:-webkit-autofill, textarea:-webkit-autofill {
 	padding : 10px 0 0 10px;
 }
 
+/* FESTIN-O-BEATS */
+.cult {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+img#cult {
+    margin-top: 5%;
+    width: 100%;
+}
+
 
 /* Basic */
 

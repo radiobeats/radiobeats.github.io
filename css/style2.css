@@ -76,21 +76,36 @@
 }
 
 .ch-img-13 { 
-	background-image: url(images/s1.jpg);
+	background-image: url(images/13.jpg);
 	background-size: 273px 280px;
 }
 
 .ch-img-14 { 
-	background-image: url(images/s2.jpg);
+	background-image: url(images/14.jpg);
 	background-size: 273px 280px;
 }
 
 .ch-img-15 { 
+	background-image: url(images/15.jpg);
+	background-size: 273px 280px;
+}
+
+.ch-img-s1 { 
+	background-image: url(images/s1.jpg);
+	background-size: 273px 280px;
+}
+
+.ch-img-s2 { 
+	background-image: url(images/s2.jpg);
+	background-size: 273px 280px;
+}
+
+.ch-img-s3 { 
 	background-image: url(images/s3.jpg);
 	background-size: 273px 280px;
 }
 
-.ch-img-16 { 
+.ch-img-s4 { 
 	background-image: url(images/s4.jpg);
 	background-size: 273px 280px;
 }

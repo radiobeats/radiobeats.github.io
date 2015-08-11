@@ -618,7 +618,7 @@ section.special, article.special {
 			-o-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background: blue;/*-image: url(file:///C:/Users/Subham/Desktop/WebSite/Landed_upload/images/pic01.jpg);*/
+			background: blue;
 			content: '';
 			display: block;
 			height: 100%;
@@ -694,65 +694,6 @@ section.special, article.special {
 	span.image.icon {
 		cursor: default;
 	}
-
-				
-				
-/* Image *
-
-	.image {
-		border-radius: 4px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-		overflow: hidden;
-	}
-
-		.image:before {
-			content: '';
-			display: block;
-			position: absolute;
-			left: 0;
-			top: 0;
-			background-image: url("images/overlay.png");
-			width: 100%;
-			height: 100%;
-			z-index: 1;
-		}
-
-		.image img {
-			border-radius: 4px;
-			display: block;
-		}
-
-		.image.left {
-			float: left;
-			margin: 0 1.5em 1em 0;
-			top: 0.25em;
-		}
-
-		.image.right {
-			float: right;
-			margin: 0 0 1em 1.5em;
-			top: 0.25em;
-		}
-
-		.image.left, .image.right {
-			max-width: 40%;
-		}
-
-			.image.left img, .image.right img {
-				width: 100%;
-			}
-
-		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
-		}
-
-			.image.fit img {
-				width: 100%;
-			}
 
 /* List */
 
@@ -1889,11 +1830,6 @@ section.special, article.special {
 		}
 
 		#banner:after {
-			/*background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -o-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;*/
 			content: '';
 			display: block;
 			height: 100%;

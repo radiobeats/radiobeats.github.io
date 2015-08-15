@@ -7,6 +7,43 @@
 /*
 	Github
 */
+
+/* Trailor */
+
+div#blanket {
+	display:block;
+    background-color: black;
+    opacity: 1;
+    position: absolute;
+    z-index: 90001;
+    width: 100%;
+	height: 100%;
+}
+
+div#popUpDiv {
+    position: fixed;
+    background: black no-repeat;
+	left: 50%;
+    top: 50%;
+    margin-left: -337px;
+    margin-top: -215px;
+    width: 680px;
+    height: 390px;
+    z-index: 90002;
+}
+
+#close_popup{
+display:block;
+width:24px;
+height:24px;
+background:url('images/popupclose.png');
+float:right;
+}
+
+@media screen and (max-width: 900px){
+  #trailer { display: none; }  /* show it on large screens */
+}
+
 /* Links */
 
 a:visited {
